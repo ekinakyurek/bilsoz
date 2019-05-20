@@ -14,7 +14,7 @@ uç birim; uç
   git clone github.com/ekinakyurek/bilsoz.git
   cd bilsoz
   make
-  make clean
+  make install
 ```
 
 ## Kaynaklar
