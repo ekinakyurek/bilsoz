@@ -12,6 +12,7 @@ string join(char* arr[], int n, char c, string s) {
       if (i < n-1)
          s += c;
    }
+   transform(s.begin(), s.end(), s.begin(), ::tolower);
    return s;
 }
 
