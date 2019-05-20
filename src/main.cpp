@@ -5,11 +5,20 @@
 
 using namespace std;
 
+
+string join(char* arr[], int n, char c, string s) {
+   for (int i = 1; i < n; ++i) {
+      s += arr[i];
+      if (i < n-1)
+         s += c;
+   }
+   return s;
+}
+
 int main(int argc, char *argv[]){
   if (argc > 1)
   {
-    std::string word(argv[1]);
-    map<string, string>::iterator iter = BilSoz::dict.find(word);
+    map<string, string>::iterator iter = BilSoz::dict.find(join(argv,argc,' ',""));
     if (iter != BilSoz::dict.end())
     {
       cout << iter->second << endl;
