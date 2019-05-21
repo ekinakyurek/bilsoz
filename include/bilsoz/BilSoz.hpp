@@ -4,12 +4,12 @@
   #define COMPENGTR_VECTOR_
 
 #include <string>
-#include <map>
+#include <unordered_map>
 using namespace std;
 
 class BilSoz{
 public:
-    static map<string,string> dict;
+    static unordered_map<string,string> dict;
 };
 
 #endif

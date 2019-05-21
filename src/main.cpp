@@ -1,7 +1,7 @@
 #include "bilsoz/BilSoz.hpp"
 #include <iostream>
 #include <string>
-#include <map>
+#include <unordered_map>
 
 using namespace std;
 
@@ -19,7 +19,7 @@ string join(char* arr[], int n, char c, string s) {
 int main(int argc, char *argv[]){
   if (argc > 1)
   {
-    map<string, string>::iterator iter = BilSoz::dict.find(join(argv,argc,' ',""));
+    unordered_map<string, string>::iterator iter = BilSoz::dict.find(join(argv,argc,' ',""));
     if (iter != BilSoz::dict.end())
     {
       cout << iter->second << endl;

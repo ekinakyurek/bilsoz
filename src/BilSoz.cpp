@@ -1,6 +1,6 @@
 //BilSoz.cpp
 #include "bilsoz/BilSoz.hpp"
-map<string,string> BilSoz::dict = {
+unordered_map<string,string> BilSoz::dict = {
 {"direct memory access (dma)","doğrudan bellek erişimi"},
 {"null","boş"},
 {"vigilance","tetiklik"},
