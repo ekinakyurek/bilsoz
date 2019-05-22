@@ -1,6 +1,6 @@
-# BilSoz
+# bilsoz
 
-BilSoz çok küçük bir İngilizce-Türkçe bilişim sözlüğü uygulamasıdır.    
+bilsoz çok küçük bir İngilizce-Türkçe bilişim sözlüğü uygulamasıdır.    
 Türkçe metinler kaleme alan yazılımcılar ve araştırmacılar için başucu sözlüğü niyetiyle yazılmıştır.   
 Yüklendikten sonra bilgisayar uç biriminde şu şekilde sorgulama yapabilirsiniz:    
 ```SHELL
