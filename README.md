@@ -1,6 +1,6 @@
-# bilsoz
+# bilsöz
 
-bilsoz çok küçük bir İngilizce-Türkçe bilişim sözlüğü uygulamasıdır.    
+bilsöz çok küçük bir İngilizce-Türkçe bilişim sözlüğü uygulamasıdır.    
 Türkçe metinler kaleme alan yazılımcılar ve araştırmacılar için başucu sözlüğü niyetiyle yazılmıştır.   
 Yüklendikten sonra bilgisayar uç biriminde şu şekilde sorgulama yapabilirsiniz:    
 ```SHELL
@@ -20,14 +20,14 @@ uç birim; uç
 
 ## Kaynaklar
 
-bilsoz [sözlüğü](./bilsoz.tsv) aşağıdaki iki kaynağın birleştirilmesi ile oluşturulmuştur.
+bilsöz [sözlüğü](./bilsoz.tsv) aşağıdaki iki kaynağın birleştirilmesi ile oluşturulmuştur.
 
 * http://cayfer.bilkent.edu.tr/~cayfer/bilisim-sozlugu/tbd-ing-trk-sozluk.htm
 * https://github.com/deeplearningturkiye/turkce-yapay-zeka-terimleri
 
 ## Katkıda Bulunma
 
-Daha iyi çeviri için katkıda bulunmak isteyen kişiler bu depodaki `bilsoz.tsv` dosyasında değişiklikler yapıp, GitHub üzerinden değişim isteğinde bulunabilirler. Sorun tespit edenler yine aynı şekilde GitHub üzerinden bildirimde bulunabilirler.
+Daha iyi çeviri için katkıda bulunmak isteyen kişiler bağlantıdaki [sözlükte](./bilsoz.tsv) GitHub üzerinden değişim isteğinde bulunabilirler. Sorun tespit edenler yine aynı şekilde GitHub üzerinden bildirimde bulunabilirler.
 
 ## İletişim
 
