@@ -1,7 +1,8 @@
 # BilSoz
 
-BilSoz basit bir İngilizce-Türkçe bilişim sözlüğüdür.
-Yüklendikten sonra bilgisayar uç biriminde şu şekilde çalışmaktadır:    
+BilSoz çok küçük bir İngilizce-Türkçe bilişim sözlüğü uygulamasıdır.    
+Türkçe metinler kaleme alan yazılımcılar ve araştırmacılar için başucu sözlüğü niyetiyle yazılmıştır.   
+Yüklendikten sonra bilgisayar uç biriminde şu şekilde sorgulama yapabilirsiniz:    
 ```SHELL
   ❯ bilsoz terminal
 uç birim; uç
@@ -11,7 +12,7 @@ uç birim; uç
 
 Şuanki sürümde kurulum için uç biriminizde aşağıdaki satırları çalıştırmanız gerekmektedir.
 ```
-  git clone github.com/ekinakyurek/bilsoz.git
+  git clone https://github.com/ekinakyurek/bilsoz.git
   cd bilsoz
   make
   make install
@@ -19,7 +20,7 @@ uç birim; uç
 
 ## Kaynaklar
 
-BilSoz sözlüğü aşağıdaki iki kaynağın birleştirilmesi ile oluşturulmuştur.
+bilsoz sözlüğü aşağıdaki iki kaynağın birleştirilmesi ile oluşturulmuştur.
 
 * http://cayfer.bilkent.edu.tr/~cayfer/bilisim-sozlugu/tbd-ing-trk-sozluk.htm
 * https://github.com/deeplearningturkiye/turkce-yapay-zeka-terimleri
