@@ -20,7 +20,7 @@ uç birim; uç
 
 ## Kaynaklar
 
-bilsoz sözlüğü aşağıdaki iki kaynağın birleştirilmesi ile oluşturulmuştur.
+bilsoz [sözlüğü](./bilsoz.tsv) aşağıdaki iki kaynağın birleştirilmesi ile oluşturulmuştur.
 
 * http://cayfer.bilkent.edu.tr/~cayfer/bilisim-sozlugu/tbd-ing-trk-sozluk.htm
 * https://github.com/deeplearningturkiye/turkce-yapay-zeka-terimleri
